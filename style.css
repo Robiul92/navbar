@@ -1,0 +1,36 @@
+ 
+ .navHeader{
+    font-size: 10px;
+    text-decoration:none;
+ }
+
+ .ancorClass{
+    text-decoration:none;
+ }
+ 
+ .utility-nav-wrapper {
+    font-size: 10px;
+    float: none;
+    margin: 0;
+    display: flex;
+    padding: 0 15px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;    
+    
+}
+
+
+.utility-nav .utility-nav-wrapper>ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#input_container { position:relative; padding:0; margin:0; }
+#input { height:20px; margin:0; padding-left: 30px; }
+
+#input_img {
+    position:absolute; bottom:12px; left:180px; width:10px; height:10px;
+     }
